@@ -1,6 +1,14 @@
 
-jQuery(function ($) { 
+jQuery(function ($) {
 
-	console.log('js working');
+	//Play/Pause control clicked
+	$('.video-btn').on('click', function () {
+		if (video[0].paused) {
+			video[0].play();
+		} else {
+			video[0].pause();
+		}
+		return false;
+	});
 });
     
