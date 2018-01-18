@@ -6,10 +6,6 @@ $zindex: (
   footer    : 5000
 );
 
-.wdf-head {
+/*.wdf-head {
   z-index: map-get($zindex, header);
-}
-
-.jdi-do-sebe {
-	z-index: map-get($zindex, overlay);
-}
+}*/
