@@ -1,0 +1,15 @@
+$zindex: (
+  modal     : 9000, 
+  overlay   : 8000,
+  dropdown  : 7000,
+  header    : 6000,
+  footer    : 5000
+);
+
+.wdf-head {
+  z-index: map-get($zindex, header);
+}
+
+.jdi-do-sebe {
+	z-index: map-get($zindex, overlay);
+}
