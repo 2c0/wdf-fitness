@@ -34,7 +34,7 @@ h1 {
     } 
 
     @media screen and (min-width: $breakpoint-desktop) {
-        font-size: 55px;
+        font-size: 46px;
     } 
 
 }
@@ -84,10 +84,12 @@ p {
 	position: relative;
 	width: 100%;
 	background: url('../images/bg-photo.png') center center no-repeat;
+	color: #fff;
 
-	div {
+	.wdf-head-1 {
 		width: 1100px;
 		margin: 0 auto;
+		height: 100px;
 
 		.jdi-do-sebe {
 			height: 39px;
@@ -107,69 +109,42 @@ p {
 			margin-top: 20px;
 		}
 
+
 	}
 
-}
-/*navbar*/
+	.wdf-head-2 {
+		height: 566px;	
+		width: 532px;
+		margin: 0 auto;
+		text-align: center;
 
-@import "variables";
+		.mansformation {
+			font-size: 15px;	
+			font-weight: bold;	
+			letter-spacing: 4px;
+			margin-bottom: 10px;
 
-.navbar {
+		}
 
-    z-index: $zindex-modal;
+		.five-men  {
+			font-size: 46px;	
+			font-weight: bold;
+			color: $color-yellow;
+		}
 
-    .navbar-brand {
-        line-height: 34px !important;
+		.transformation {
+			color: $color-light-white;
+			font-size: 18px;
+			margin-top: 35px;
+			line-height: 34px;
+			font-family: "Open Sans";
+		}
 
-        .logo {
-            font-size: 32px;
-            color: red;
-            font-weight: bold;
+		.head-video {
+			height: 290px;
+			width: 500px;
+			margin: 50px auto 20px auto;
+		}
+	}
 
-
-            @media screen and (min-width: $breakpoint-tablet) {
-                font-size: 40px;
-            } 
-
-            @media screen and (min-width: $breakpoint-desktop) {
-                font-size: 55px;
-            } 
-        }
-
-    }
-
-    .navbar-nav {
-        li {
-            a {
-                padding-top: 27px;
-            }
-        }
-    }
-
-    .navbar-toggle {
-        background: none;
-
-    }
-
-    #phodat-main-nav-collapse {
-        font-size: 16px !important;
-    }
-
-
-    .navbar-default .navbar-toggle:hover,  {
-        /* background-color: #ddd; */
-    }
-
-    .navbar-default .navbar-toggle:focus {
-        background: none;
-    }
-
-}
-
-
-
-/*MODAL*/
-
-.modal-dialog {
-    z-index: $zindex-modal;
 }

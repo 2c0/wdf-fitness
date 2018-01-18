@@ -15,14 +15,9 @@ $breakpoint-desktop-xl:        1400px;
 // COLORS
 // --------------------------------------------------
 $color-black:               #000000;
-$color-darker-grey:         #020202;
-$color-lighter-grey:        #d4d5da;
-$color-grey:                #898787;
-$color-darkgrey:            #8b8a8e;
-$color-footer:              #303030;
 $color-white:               #fff;
-$color-grey-tiles:          #eeeeee;
-$color-grey-footer:         #303030;
+$color-yellow:		#F0E40A;
+$color-light-white:	#E5EAF1;
 
 //
 // FONT SIZES
@@ -31,11 +26,3 @@ $color-grey-footer:         #303030;
 $intermezzo-text-small: 34px;
 $intermezzo-text-medium: 44px;
 
-
-//
-// Z-INDEXES
-// --------------------------------------------------
-
-$zindex-modal   : 9000;
-$zindex-overlay : 8000;
-$zindex-header  : 7000;
