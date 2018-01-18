@@ -2,14 +2,9 @@
 
 
 body {
-    font-family: 'roboto' !important;
+    font-family: 'Monda', sans-serif;
     background-color: #fff;
-    font-size: 12px;
-    color: #808080;
-    font-weight: normal;
-    overflow-x: hidden !important;
-    line-height: 25px;
-    text-align: center;
+    font-size: 16px;
 }
 
 /*---------------------------------------
@@ -25,8 +20,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1,h2 {
-    font-family: 'Montserrat', 'sans-serif';
-    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -75,11 +68,7 @@ p {
 
 .container {
 
-    padding-top: 0;
-
-    @media screen and (min-width: $breakpoint-desktop) {
-        padding-top: 70px;
-    }
+	width: 1600px;
 
 }
 
@@ -91,6 +80,13 @@ p {
     margin: 20px 0;
 }
 
+.wdf-head {
+
+		height: 924px;	
+		opacity: 0.5;	
+		background: linear-gradient(180deg, rgba(25,38,46,0) 0%, #19262E 100%), linear-gradient(127deg, rgba(238,238,238,0) 0%, rgba(119,127,132,1) 100%);
+	
+}
 /*navbar*/
 
 @import "variables";
@@ -147,51 +143,6 @@ p {
 
 }
 
-/*---------------------------------------
- **   COLORS                         -----
------------------------------------------*/
-
-/** BACKGROUNDS **/
-.red-bg {
-    background: #e96656;
-}
-.green-bg {
-    background: #34d293;
-}
-.blue-bg {
-    background: #3ab0e2;
-}
-.yellow-bg {
-    background: #E7AC44;
-}
-.dark-bg {
-    background: #404040;
-}
-.white-bg {
-    background:  #FFFFFF;
-}
-
-/** FOR TEXTS AND ICON FONTS **/
-.red-text {
-    color: #e96656;
-}
-.green-text {
-    color: #34d293;
-}
-.blue-text {
-    color: #3ab0e2;
-}
-.yellow-text {
-    color: #f7d861;
-}
-.dark-text {
-    color: #404040;
-}
-.white-text {
-    color: #FFFFFF;
-
-    padding: 10px 0;
-}
 
 
 /*MODAL*/
