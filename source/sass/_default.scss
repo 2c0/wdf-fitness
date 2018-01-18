@@ -82,10 +82,27 @@ p {
 
 .wdf-head {
 
-		height: 924px;	
-		opacity: 0.5;	
-		background: linear-gradient(180deg, rgba(25,38,46,0) 0%, #19262E 100%), linear-gradient(127deg, rgba(238,238,238,0) 0%, rgba(119,127,132,1) 100%);
-	
+	height: 924px;		
+	//background: linear-gradient(180deg, #0D1215, #12191D);
+	//background-image: url('../images/bg-photo.png');
+
+
+	position: relative;
+	width: 100%;
+	background: url('../images/bg-photo.png') center center no-repeat;
+	background-size: cover;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image:  linear-gradient(180deg, #0D1215, #12191D);
+		opacity: .8; 
+	}
+
 }
 /*navbar*/
 
