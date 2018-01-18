@@ -1,0 +1,71 @@
+//
+// The Menu Section
+// --------------------------------------------------
+
+.menu-section {
+
+    @media screen and (min-width: $breakpoint-tablet) {
+        min-height: 747px;
+    }
+
+    .menu-item-wrap {
+        padding-left: 0;
+        padding-right: 0;
+
+        .col-xs-6 {
+            padding: 0 5px 0 5px;
+        }
+
+
+        .category-item {
+
+            padding: 12px 15px;
+            background: #fff;
+            border: 1px solid #eaeaea;
+            border-radius: 4px;
+            min-height: 500px;
+
+            @media screen and (min-width:$breakpoint-desktop) {
+                opacity:0.5;
+
+                &:hover {
+                    opacity:1;
+                }
+            }
+
+            .menu-list {
+
+                padding-top: 20px;
+
+                .col-xs-12 {
+                    padding: 10px 0;
+                    border-bottom: dashed 1px grey;
+                }
+
+                .col-xs-8 {
+                    text-align: left;
+                    padding-left: 0; 
+
+                    h3 {
+                        font-size: 16px;
+                    }
+                }
+
+                .col-xs-4 {
+                    text-align: right;
+                    padding-right:  0; 
+
+                    font-size: 16px;
+                }
+
+                .menu-item-a {
+                    font-size: 30px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

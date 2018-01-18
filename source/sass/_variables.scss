@@ -1,0 +1,41 @@
+//
+// BREAKPOINTS
+// --------------------------------------------------
+$breakpoint-iphone-s:           320px;
+$breakpoint-iphone-b:           414px;
+$breakpoint-phone:              480px;
+$breakpoint-mobile:             640px;
+$breakpoint-tablet:             768px;
+$breakpoint-medium:             992px;
+$breakpoint-desktop:           1200px;
+$breakpoint-desktop-xl:        1400px;
+
+
+//
+// COLORS
+// --------------------------------------------------
+$color-black:               #000000;
+$color-darker-grey:         #020202;
+$color-lighter-grey:        #d4d5da;
+$color-grey:                #898787;
+$color-darkgrey:            #8b8a8e;
+$color-footer:              #303030;
+$color-white:               #fff;
+$color-grey-tiles:          #eeeeee;
+$color-grey-footer:         #303030;
+
+//
+// FONT SIZES
+// --------------------------------------------------
+
+$intermezzo-text-small: 34px;
+$intermezzo-text-medium: 44px;
+
+
+//
+// Z-INDEXES
+// --------------------------------------------------
+
+$zindex-modal   : 9000;
+$zindex-overlay : 8000;
+$zindex-header  : 7000;

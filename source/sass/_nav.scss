@@ -1,0 +1,64 @@
+/*navbar*/
+
+@import "variables";
+
+.navbar {
+    
+    z-index: $zindex-modal;
+    
+    .container {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        line-height: 34px !important;
+        margin-left: 15px;
+
+        .logo {
+            font-size: 32px;
+            color: red;
+            font-weight: bold;
+
+
+            @media screen and (min-width: $breakpoint-tablet) {
+                font-size: 40px;
+            } 
+
+            @media screen and (min-width: $breakpoint-desktop) {
+                font-size: 55px;
+            } 
+        }
+
+    }
+
+    .navbar-nav {
+        li {
+            a {
+                padding-top: 27px;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        background: none;
+
+    }
+
+    #phodat-main-nav-collapse {
+        font-size: 16px !important;
+        
+        .menu-item {
+            margin-left: 15px;
+        }
+    }
+
+
+    .navbar-default .navbar-toggle:hover,  {
+        /* background-color: #ddd; */
+    }
+
+    .navbar-default .navbar-toggle:focus {
+        background: none;
+    }
+
+}

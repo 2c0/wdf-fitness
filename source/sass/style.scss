@@ -1,0 +1,72 @@
+/*!
+Theme Name: haihanguyen
+Theme URI: http://underscores.me/
+Author: Hai Ha Nguyen
+Author URI: http://underscores.me/
+Description: Personal blog
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: haihanguyen
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+haihanguyen is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Bootstrap styles
+--------------------------------------------------------------*/
+@import "bootstrap";
+
+/*--------------------------------------------------------------
+# Variables styles
+--------------------------------------------------------------*/
+@import "variables";
+
+/*--------------------------------------------------------------
+# Default styles
+--------------------------------------------------------------*/
+@import "default";
+
+/*--------------------------------------------------------------
+# Carousel styles
+--------------------------------------------------------------*/
+@import "carousel";
+
+/*--------------------------------------------------------------
+# NAV styles
+--------------------------------------------------------------*/
+@import "nav";
+
+/*--------------------------------------------------------------
+# Menu styles
+--------------------------------------------------------------*/
+@import "menu";
+
+/*--------------------------------------------------------------
+# Our Focus styles
+--------------------------------------------------------------*/
+@import "ourfocus";
+
+/*--------------------------------------------------------------
+# Footer styles
+--------------------------------------------------------------*/
+@import "footer";
+

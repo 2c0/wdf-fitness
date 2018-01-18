@@ -1,0 +1,29 @@
+/* FOOTER*/
+
+@import "variables";
+
+.footer-wrap {
+    padding-top: 0;
+
+    .widgettitle {
+        font-size: 24px !important;
+        line-height: normal;
+    }
+
+    .widget_text {
+        margin-bottom: 30px;
+    }
+
+    .zedna_csi_url {
+        margin-right: 10px;
+    }
+
+    .company-details {
+        padding: 15px 0px;
+
+        @media screen and (min-width: $breakpoint-tablet) {
+                padding: 67px 0px;
+            }
+    }
+}
+
