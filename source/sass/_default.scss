@@ -69,11 +69,9 @@ p {
 .container {
 
 	width: 1600px;
+	padding-left: 0;
+	padding-right: 0;
 
-}
-
-.container-fluid {
-    padding: 0;
 }
 
 .row {
@@ -82,10 +80,35 @@ p {
 
 .wdf-head {
 
-		height: 924px;	
-		opacity: 0.5;	
-		background: linear-gradient(180deg, rgba(25,38,46,0) 0%, #19262E 100%), linear-gradient(127deg, rgba(238,238,238,0) 0%, rgba(119,127,132,1) 100%);
-	
+	height: 924px;		
+	position: relative;
+	width: 100%;
+	background: url('../images/bg-photo.png') center center no-repeat;
+
+	div {
+		width: 1100px;
+		margin: 0 auto;
+
+		.jdi-do-sebe {
+			height: 39px;
+			width: 129px;
+			color: #FFFFFF;
+			//font-family: Monda;
+			font-size: 24px;
+			line-height: 39px;
+			padding-top: 20px;
+			float: left;
+		}
+
+		.pripojit-head-section {
+			float: right;
+			width: 129px;
+			height: 100%;
+			margin-top: 20px;
+		}
+
+	}
+
 }
 /*navbar*/
 
