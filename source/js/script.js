@@ -1,14 +1,15 @@
 
 jQuery(function ($) {
 
-	//Play/Pause control clicked
-	$('.video-btn').on('click', function () {
-		if (video[0].paused) {
-			video[0].play();
+//Play/Pause control clicked
+	$(".video-btn").on("click", function () {
+		var video = document.getElementById("video1");
+		if (video.paused) {
+			$('.video-btn').hide();
+			video.play();
 		} else {
-			video[0].pause();
+			video.pause();
+			$('.video-btn').show();
 		}
-		return false;
 	});
 });
-    
