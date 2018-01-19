@@ -29,6 +29,62 @@
 	margin: 0 auto
 }
 
+.navbar-fixed-right {
+	position: fixed;
+	right: 0;
+	left: auto;
+	//top: 298px;
+
+	top: 130px;
+	height: auto;	
+	width: 216px;
+	background: none;
+	font-size: 15px;
+
+	@media  screen and (max-width: $breakpoint-mobile) {
+		position: fixed;
+		top: 0;
+		height: auto;
+		width: 100%;
+		backround: white;
+	}
+	
+	li {
+		width: 100%;
+		border-bottom: 1px dashed;
+		
+		&:hover {
+				color: $color-yellow !important;
+			}
+			
+			&:active {
+				color: $color-yellow !important;
+			}
+			
+			&:focus {
+				color: $color-yellow !important;
+			}
+		
+		a {
+			font-size: 15px;
+			color: $color-white !important;
+			
+			&:hover {
+				color: $color-yellow !important;
+			}
+			
+			&:active {
+				color: $color-yellow !important;
+			}
+			
+			&:focus {
+				color: $color-yellow !important;
+			}
+		}
+	}
+
+}
+
 
 // Fonts
 
