@@ -53,11 +53,31 @@
 		width: 100%;
 		border-bottom: 1px dashed;
 		
+		&:hover {
+				color: $color-yellow !important;
+			}
+			
+			&:active {
+				color: $color-yellow !important;
+			}
+			
+			&:focus {
+				color: $color-yellow !important;
+			}
+		
 		a {
 			font-size: 15px;
 			color: $color-white !important;
 			
 			&:hover {
+				color: $color-yellow !important;
+			}
+			
+			&:active {
+				color: $color-yellow !important;
+			}
+			
+			&:focus {
 				color: $color-yellow !important;
 			}
 		}
