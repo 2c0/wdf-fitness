@@ -26,17 +26,15 @@ h1,h2 {
 
 h1 {
 
-    font-size: 30px;
+    font-size: 46px;
     font-weight: bold !important;
+    line-height: 67px;
 
-    @media screen and (min-width: $breakpoint-tablet) {
-        font-size: 40px;
-    } 
+}
 
-    @media screen and (min-width: $breakpoint-desktop) {
-        font-size: 46px;
-    } 
-
+.section-h1 {
+	font-size: 30px !important;
+	line-height: 93px !important;
 }
 
 
@@ -80,7 +78,7 @@ p {
 
 .wdf-head {
 
-	height: 924px;		
+	height: 900px;		
 	position: relative;
 	width: 100%;
 	background: url('../images/bg-photo.png') center center no-repeat;
