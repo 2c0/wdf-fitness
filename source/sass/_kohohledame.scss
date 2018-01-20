@@ -7,7 +7,7 @@
 	color: $color-white;
 	background: url('../images/persons.png'), $color-dark-green-bg;
 	background-repeat: no-repeat;
-	background-position:  center 150px;
+	background-position:  center center;
 	height: 800px;
 	width: 100%;
 
@@ -17,7 +17,7 @@
 		font-size: 16px;
 		line-height: 26px;
 		color: $color-white-who;
-		margin-top: 30px;
+		margin-top: 50px;
 	}
 
 	.who-1 {
