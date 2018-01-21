@@ -9,7 +9,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Monda&amp;subset=latin-ext" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 		<script src="build/vendor/jquery/jquery.min.js" type="text/javascript"></script>
-		<script src="build/vendor/bootstrap/javascripts/bootstrap.min.js" type="text/javascript"></script>
 		<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,144 +19,80 @@
 			<![endif]-->
 	</head>
 	<body>
-		<!-- =========== HEADER ============ -->
-		<header id="home" class="wdf-head"> 
-			<nav class="navbar navbar-default navbar-fixed-top navbar-fixed-right">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#"></a>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#koho-hledame">Koho hledáme?</a></li>
-							<li><a href="#kdy-a-kde">Kdy a kde?</a></li>
-							<li><a href="#pro-koho">Co dostaneš?</a></li>
-							<li><a href="#co-ziskas">Co je součástí programu?</a></li>
-							<li><a href="#promeny">Jak se připojit?</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-			<div class="wdf-head-1">
-				<div class="jdi-do-sebe">Jdi do sebe</div>
-				<div class="pripojit-head-section">
-					<a class="btn pripojit-btn"  role="button" data-toggle="modal" data-target="#myModal">Chci se připojit</a>
+		<!-- Main Container -->
+		<div class="container-fluid"> 
+			<!-- Navigation -->
+			<header class="wdf-head"> 
+				<nav>
+					<ul>
+						<li><a href="#hero">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li> <a href="#contact">CONTACT</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- Hero Section -->
+			<section class="hero" id="hero">
+				<h2 class="hero_header">HERO <span class="light">LIGHT</span></h2>
+				<p class="tagline">Light is a simple one page website</p>
+			</section>
+			<!-- About Section -->
+			<section class="about" id="about">
+				<h2 class="hidden">About</h2>
+				<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+				<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+				<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			</section>
+			<!-- Stats Gallery Section -->
+			<div class="gallery">
+				<div class="thumbnail">
+					<h1 class="stats">1500</h1>
+					<h4>TITLE</h4>
+					<p>One line description</p>
+				</div>
+				<div class="thumbnail">
+					<h1 class="stats">2300</h1>
+					<h4>TITLE</h4>
+					<p>One line description</p>
+				</div>
+				<div class="thumbnail">
+					<h1 class="stats">7500</h1>
+					<h4>TITLE</h4>
+					<p>One line description</p>
+				</div>
+				<div class="thumbnail">
+					<h1 class="stats">9870</h1>
+					<h4>TITLE</h4>
+					<p>One line description</p>
 				</div>
 			</div>
-
-			<div class="wdf-head-2">
-				<div class="mansformation">MANSFORMATION</div>
-				<div class="five-men">
-					<h1>3 měsíce, 5 chlapů, 
-						maximální výkon</h1>
-				</div>
-				<div class="transformation">Tranformace chlapů, který při cestě za vysněným byznysem a kariérou zapomněli na svoje tělo.
-				</div>
-				<div class="head-video">
-					<video id="video1" class="img-responsive" src="build/video/big_buck_bunny.mp4" width="500" height="290" controls="">
-					</video>
-					<div class="video-btn">
-					</div>
-				</div>
-			</div>
-		</header>
-
-		<!-- =========== MODAL ============ -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-					</div>
-					<div class="modal-body">
-						...
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary">Save changes</button>
-					</div>
-				</div>
-			</div>
+			<!-- Parallax Section -->
+			<section class="banner">
+				<h2 class="parallax">PARALLAX HERO</h2>
+				<p class="parallax_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</section>
+			<!-- More Info Section -->
+			<footer>
+				<article class="footer_column">
+					<h3>ABOUT</h3>
+					<img src="file:///Macintosh HD/Users/haihanguyen/Library/Application Support/Adobe/Dreamweaver CC 2018/en_US/Configuration/Temp/Assets/eam40e6cd2e.TMP/images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+				</article>
+				<article class="footer_column">
+					<h3>LOCATION</h3>
+					<img src="file:///Macintosh HD/Users/haihanguyen/Library/Application Support/Adobe/Dreamweaver CC 2018/en_US/Configuration/Temp/Assets/eam40e6cd2e.TMP/images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+				</article>
+			</footer>
+			<!-- Footer Section -->
+			<section class="footer_banner" id="contact">
+				<h2 class="hidden">Footer Banner Section </h2>
+				<p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
+				<div class="button">subscribe</div>
+			</section>
+			<!-- Copyrights Section -->
+			<div class="copyright">&copy;2015 - <strong>Light Theme</strong></div>
 		</div>
-
-		<!-- =========== KOHO HLEDAME SECTION ============ -->
-		<section class="text-center" id="koho-hledame">
-			<h1 class="section-h1">Hledám 5 chlapů z Prahy, kteří</h1>
-			<div class="who-wrap center-block">
-				<div class="who-1">Trpí přemírou stresu a jsou jedna velká časovaná bomba</div>
-				<div class="who-2">Postrádají energii a motivaci začít (i když cejtí, že ten čas už přišel)</div>
-				<div class="who-3">Trošku tápou ve výživě a nejsou si jistí, jak mají začít cvičit.</div>
-				<div class="who-4">Přišli o svoje tělo a fyzičku poté, co začali pracovat na svém byznysu, nebo kariéře.</div>
-				<div class="who-5">Bolí je záda z častého sezení u počítače, nebo v autě.</div>
-				<div class="who-6">Nemají náladu poslouchat „experty“ ve fitku, kteří si chodí honit ego před zrcadlem</div>
-			</div>
-
-			<div class="pripojit-btn-section">
-				<div class="pripojit-btn-section-1 center-block">Shoduješ se aspoň, ve <span>3 bodech?</span><br>
-					Pak je tento program přímo pro tebe!</div>
-				<div class="pripojit-head-section">
-					<a class="btn pripojit-btn"  role="button" data-toggle="modal" data-target="#myModal">Chci se připojit</a>
-				</div>
-			</div>
-		</section>
-
-		<!-- =========== KDY A KDE ============ -->
-		<section class="about" id="kdy-a-kde">
-			<h2 class="hidden">About</h2>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-		</section>
-
-		<!-- =========== PRO KOHO ============ -->
-		<section class="about" id="pro-koho">
-			<h2 class="hidden">About</h2>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-		</section>
-
-		<!-- =========== CO ZISKAS ============ -->
-		<section class="about" id="co-ziskas">
-			<h2 class="hidden">About</h2>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-		</section>
-
-		<!-- =========== PROMENY ============ -->
-		<section class="about" id="promeny">
-			<h2 class="hidden">About</h2>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-			<p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-		</section>
-
-		<!-- Copyrights Section -->
-		<div class="copyright">&copy;2015 - <strong>Light Theme</strong></div>
-		<footer>
-			<article class="footer_column">
-				<h3>ABOUT</h3>
-				<img src="file:///Macintosh HD/Users/haihanguyen/Library/Application Support/Adobe/Dreamweaver CC 2018/en_US/Configuration/Temp/Assets/eam40e6cd2e.TMP/images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-			</article>
-			<article class="footer_column">
-				<h3>LOCATION</h3>
-				<img src="file:///Macintosh HD/Users/haihanguyen/Library/Application Support/Adobe/Dreamweaver CC 2018/en_US/Configuration/Temp/Assets/eam40e6cd2e.TMP/images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-			</article>
-		</footer>
 		<!-- Main Container Ends -->
 		<script src="build/js/scripts.js" type="text/javascript"></script>
 	</body>
