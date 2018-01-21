@@ -1,0 +1,24 @@
+//
+// PRIHLASKA
+// --------------------------------------------------
+
+#prihlaska {
+	border-radius: 4px;
+	background-color: $color-yellow;
+	box-shadow: 0 32px 24px 14px rgba(7,14,18,0.2);
+	color: $color-yellow;
+
+	.prihlaska-wrap {
+		width: 40%;
+		height: auto;
+
+	}
+
+	h1 {
+		color: $color-prihlaska-text;
+		font-family: Monda;
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 29px;
+	}
+}
