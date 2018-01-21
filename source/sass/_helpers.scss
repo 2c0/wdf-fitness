@@ -17,10 +17,26 @@
 	line-height: 35px;
 	text-align: center;
 	text-transform: uppercase;
-	
+
 	&:hover {
 		color: $color-white;
 	}
+}
+
+.pripojit-btn-alt {
+
+	height: 40px;
+	width: 195px;
+	border-radius: 22px;
+	background-color: #F0E40A;
+	color: #101F27;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+
 }
 
 .video-btn {
@@ -37,7 +53,6 @@
 	position: fixed;
 	right: 0;
 	left: auto;
-	//top: 298px;
 
 	top: 130px;
 	height: auto;	
