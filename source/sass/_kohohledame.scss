@@ -8,7 +8,7 @@
 	background: url('../images/persons.png'), $color-dark-green-bg;
 	background-repeat: no-repeat;
 	background-position:  center center;
-	height: 800px;
+	height: 900px;
 	width: 100%;
 
 	.who-wrap {
@@ -17,7 +17,7 @@
 		font-size: 16px;
 		line-height: 26px;
 		color: $color-white-who;
-		margin-top: 50px;
+		margin-top: 100px;
 	}
 
 	.who-1 {
@@ -60,6 +60,35 @@
 		text-align: left;
 		height: 78px;	
 		width: 346px;
+	}
+
+	.pripojit-btn-section {
+		height: 220px;
+		width: 695px;
+		border-radius: 4px;
+		background: radial-gradient(circle, #19262E 0%, #16252D 100%);
+		box-shadow: 0 22px 24px 14px rgba(7,14,18,0.2);
+		margin: 0 auto;
+		position: relative;
+		top: -12px;
+
+		.pripojit-btn-section-1 {
+			color: #FFFFFF;
+			font-family: "Open Sans";
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 29px;
+			text-align: center;
+			height: auto;	
+			width: 300px;
+			padding: 47px 0 22px 0;
+			
+			span {
+				color: $color-yellow;
+			}
+		}
+
+
 	}
 
 }
