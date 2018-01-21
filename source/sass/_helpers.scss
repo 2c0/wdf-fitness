@@ -39,6 +39,21 @@
 
 }
 
+.pripojit-btn-alt2 {
+	height: 50px;
+	width: 230px;
+	border: 2px solid #121F28;
+	border-radius: 62px;
+	background-color: #0F1C24;
+	color: $color-yellow;
+	text-transform: uppercase;
+	line-height: 31px;
+	
+	&:hover {
+		color: $color-yellow;
+	}
+}
+
 .video-btn {
 	background: url('../images/play.png') center center no-repeat;
 	height: 205px;	
