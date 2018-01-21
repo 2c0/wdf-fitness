@@ -1,23 +1,5 @@
 /*!
-Theme Name: haihanguyen
-Theme URI: http://underscores.me/
-Author: Hai Ha Nguyen
-Author URI: http://underscores.me/
-Description: Personal blog
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: haihanguyen
-Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-haihanguyen is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+	MAIN SASS FILE
 */
 
 /*--------------------------------------------------------------
@@ -41,9 +23,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "variables";
 
 /*--------------------------------------------------------------
+# Zindex styles
+--------------------------------------------------------------*/
+@import "zindex";
+
+/*--------------------------------------------------------------
+# Helpers styles
+--------------------------------------------------------------*/
+@import "helpers";
+
+/*--------------------------------------------------------------
 # Default styles
 --------------------------------------------------------------*/
 @import "default";
+
+/*--------------------------------------------------------------
+# Header styles
+--------------------------------------------------------------*/
+@import "header";
 
 /*--------------------------------------------------------------
 # NAV styles
@@ -51,9 +48,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "nav";
 
 /*--------------------------------------------------------------
-# Menu styles
+# Koho hledame styles
 --------------------------------------------------------------*/
-@import "menu";
+@import "kohohledame";
 
 /*--------------------------------------------------------------
 # Footer styles

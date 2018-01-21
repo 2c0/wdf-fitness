@@ -1,0 +1,94 @@
+/*
+	KOHO HLEDAME SECTION
+*/
+
+#koho-hledame {
+
+	color: $color-white;
+	background: url('../images/persons.png'), $color-dark-green-bg;
+	background-repeat: no-repeat;
+	background-position:  center center;
+	height: 900px;
+	width: 100%;
+
+	.who-wrap {
+		width: 999px;
+		height: 547px;
+		font-size: 16px;
+		line-height: 26px;
+		color: $color-white-who;
+		margin-top: 100px;
+	}
+
+	.who-1 {
+		transform: translate(135px, 1px);
+		height: 78px;	
+		width: 219px;
+		text-align: right;
+	}
+
+	.who-2 {
+		transform: translate(55px, 63px);
+		height: 52px;	
+		width: 259px;
+		text-align: right;
+	}
+
+	.who-3 {
+		transform:  translate(60px, 134px);
+		text-align: right;
+		height: 78px;	
+		width: 281px;
+	}
+
+	.who-4 {
+		transform: translate(710px, -175px);
+		height: 78px;	
+		width: 346px;
+		text-align: left;
+	}
+
+	.who-5 {
+		transform: translate(710px, -88px);
+		text-align: left;
+		height: 78px;	
+		width: 216px;
+	}
+
+	.who-6 {
+		transform: translate(670px, -58px);
+		text-align: left;
+		height: 78px;	
+		width: 346px;
+	}
+
+	.pripojit-btn-section {
+		height: 220px;
+		width: 695px;
+		border-radius: 4px;
+		background: radial-gradient(circle, #19262E 0%, #16252D 100%);
+		box-shadow: 0 22px 24px 14px rgba(7,14,18,0.2);
+		margin: 0 auto;
+		position: relative;
+		top: -12px;
+
+		.pripojit-btn-section-1 {
+			color: #FFFFFF;
+			font-family: "Open Sans";
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 29px;
+			text-align: center;
+			height: auto;	
+			width: 300px;
+			padding: 47px 0 22px 0;
+			
+			span {
+				color: $color-yellow;
+			}
+		}
+
+
+	}
+
+}
