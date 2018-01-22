@@ -5,7 +5,45 @@
 #pro-koho {
 	background: url('../../assets/images/bitmap.png'), $color-dark-green-bg;
 	background-repeat: no-repeat;
-	background-position:  center center;
-	height: 900px;
+	background-position: center bottom;
+	height: 1000px;
 	width: 100%;
+	color: $color-white;
+
+	.pro-koho-wrap {
+		padding-top: 150px;
+
+
+		.text-left {
+			padding: 0;
+
+			.row {
+				margin: 0 0 84px 0;
+
+				.col-xs-1 {
+					padding-left: 0;
+				}
+			}
+
+		}
+
+		.text-right {
+			padding: 0;
+
+			.row {
+				margin: 0 0 84px 0;
+
+				.col-xs-1 {
+					padding-right: 0;
+				}
+			}
+		}
+
+
+
+		img {
+			margin-top: 10px;
+		}
+	}
+
 }
