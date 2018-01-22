@@ -68,12 +68,12 @@
 	position: fixed;
 	right: 0;
 	left: auto;
-
 	top: 130px;
 	height: auto;	
 	width: 216px;
 	background: none;
 	font-size: 15px;
+	border: none;
 
 	@media  screen and (max-width: $breakpoint-mobile) {
 		position: fixed;

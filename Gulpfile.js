@@ -104,7 +104,7 @@ gulp.task('copy-vendor-assets', ['copy-jquery', 'copy-bootstrap', 'copy-fonts'])
 gulp.task('watch', function () {
 	browserSync.init({
 		open: 'external',
-		browser: "firefoxdeveloperedition",
+		//browser: "firefoxdeveloperedition",
 		proxy: 'wdffitness.dev'
 	});
 	gulp.watch(sassSrc, ['sass-dev']);
