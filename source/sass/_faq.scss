@@ -1,0 +1,21 @@
+//
+// FAQ
+// --------------------------------------------------
+
+#faq {
+	background-color: $color-dark-green-bg;
+	color: $color-white;
+
+	#accordion {
+		width: 600px;
+		margin: 0 auto;
+		
+		.panel {
+			background: none;
+			
+			.panel-title {
+				text-align: left;
+			}
+		}
+	}
+}
