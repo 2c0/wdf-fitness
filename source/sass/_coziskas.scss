@@ -7,12 +7,40 @@
 	width: auto;
 	padding: 0 0 50px 0;
 	background: url('../../assets/images/bg_whatget.png') center center no-repeat;
+	color: $color-white;
 
 	.divider {
 		height: 28px;
 		width: 100%;
 		background: url('../../assets/images/divider.png') center center no-repeat;
 	}
+
+	.container {
+		padding: 116px 0;
+
+		.co-ziskas-t1 {
+			height: 24px;
+			width: 263px;
+			font-size: 15px;
+			font-weight: bold;
+			letter-spacing: 3px;
+			line-height: 24px;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		p {
+
+			height: 68px;
+			width: 719px;
+			font-family: "Open Sans";
+			font-size: 18px;
+			line-height: 34px;
+			text-align: center;
+
+		}
+	}
+
 }
 
 
