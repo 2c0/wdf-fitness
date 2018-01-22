@@ -15,7 +15,7 @@ jQuery(function ($) {
 
 
 	//Main Navigation functionality
-	$('a[href^="#"]').on('click', function (e) {
+	$('a[href^="#"]:not([data-toggle])').on('click', function (e) {
 
 // Make sure this.hash has a value before overriding default behavior
 		if (this.hash !== "") {
@@ -25,9 +25,12 @@ jQuery(function ($) {
 			var $target = $(target);
 			// Using jQuery's animate() method to add smooth page scroll
 			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+
+
 			$('html, body').stop().animate({'scrollTop': $target.offset().top}, 900, 'swing', function () {
 				window.location.hash = target;
 			});
 		}
 	});
+
 });
