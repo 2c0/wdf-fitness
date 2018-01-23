@@ -39,7 +39,58 @@
 			text-align: center;
 
 		}
+
+		.workshop {
+			height: 600px;
+			width: 320px;
+			background-color: #FFFFFF;
+			box-shadow: 0 10px 16px 10px rgba(49,49,49,0.04);
+
+			.ws-sign {
+				height: 60px;
+				width: 340px;
+				background-color: $color-yellow;
+				background: url('../../assets/images/bg_workshop.png') center center no-repeat;
+				margin-top: 10px;
+
+				div {
+					height: 50px;
+					color: #19262E;
+					font-size: 18px;
+					font-weight: bold;
+					letter-spacing: 1px;
+					line-height: 63px;
+				}
+
+			}
+		}
+
+		.training {
+			height: 600px;
+			width: 665px;
+			background-color: #FFFFFF;
+			box-shadow: 0 10px 16px 10px rgba(49,49,49,0.04);
+
+			.blue-sign {
+				height: 60px;
+				width: 648px;
+				border-radius: 1px 1px 0 0;
+				background-color: #16A3F8;
+				position: relative;
+				top: 5px;
+
+				.col-xs-6 {
+					height: 50px;
+					font-size: 18px;
+					font-weight: bold;
+					letter-spacing: 1px;
+					line-height: 63px;
+				}
+			}
+		}
 	}
+
+
 
 }
 
