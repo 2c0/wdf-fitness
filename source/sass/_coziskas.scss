@@ -4,11 +4,11 @@
 
 #co-ziskas {
 
-	height: 1480px;
 	width: auto;
-	padding: 0 0 50px 0;
+	padding: 0 !important;
 	background: url('../../assets/images/bg_whatget.png') center center no-repeat;
 	color: $color-white;
+	
 
 	.co-ziskas-title {
 
@@ -42,12 +42,19 @@
 		width: 100%;
 		background: url('../../assets/images/divider.png') center center no-repeat;
 	}
+	
+	
+	.divider-2 {
+		height: 28px;
+		width: 100%;
+		background: url('../../assets/images/Divider_02.png') center center no-repeat;
+	}
 
 	.container {
-		padding: 116px 0 19px 0;
 
 		.mindset-wrap {
-			margin-top: 20px;
+			margin-top: 3px;
+			margin-left: 75px;
 
 			.mindset-text {
 				width: 400px;
@@ -76,20 +83,7 @@
 
 			}
 
-			.co-ziskas-text {
 
-				height: 102px;
-				font-family: "Open Sans";
-				font-size: 18px;
-				font-weight: bold;
-				line-height: 34px;
-				text-align: center;
-
-				span {
-					color: $color-yellow;
-				}
-
-			}
 		}
 
 		.workshop {
@@ -126,6 +120,26 @@
 				position: relative;
 				top: 10px;
 			}
+		}
+
+		.co-ziskas-text {
+
+			height: 102px;
+			font-family: "Open Sans";
+			font-size: 18px;
+			font-weight: bold;
+			line-height: 34px;
+			text-align: center;
+			    margin-top: 63px;
+
+			span {
+				color: $color-yellow;
+			}
+
+		}
+		
+		.co-ziskas-btn {
+			margin: 70px 0;
 		}
 	}
 }
