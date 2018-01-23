@@ -1,0 +1,146 @@
+/*
+	CO ZISKAS SECTION
+*/
+
+#co-ziskas {
+
+	width: auto;
+	padding: 0 !important;
+	background: url('../../assets/images/bg_whatget.png') center center no-repeat;
+	color: $color-white;
+	
+
+	.co-ziskas-title {
+
+		height: 50px;
+		font-size: 18px !important;
+		font-weight: bold;
+		letter-spacing: 1px;
+		line-height: 63px;
+		text-transform: uppercase;
+	}
+
+	.ws-text-wrap {
+		margin-top: 50px;
+
+		div {
+
+			height: 58px;
+			opacity: 0.9;
+			color: #141B1F;
+			font-family: "Open Sans";
+			font-size: 14px;
+			line-height: 22px;
+			text-align: center;
+			margin-bottom: 15px;
+
+		}
+	}
+
+	.divider {
+		height: 28px;
+		width: 100%;
+		background: url('../../assets/images/divider.png') center center no-repeat;
+	}
+	
+	
+	.divider-2 {
+		height: 28px;
+		width: 100%;
+		background: url('../../assets/images/Divider_02.png') center center no-repeat;
+	}
+
+	.container {
+
+		.mindset-wrap {
+			margin-top: 3px;
+			margin-left: 75px;
+
+			.mindset-text {
+				width: 400px;
+				margin: 0 0 0 45%;
+			}
+
+			.co-ziskas-t1 {
+				height: 24px;
+				width: 263px;
+				font-size: 15px;
+				font-weight: bold;
+				letter-spacing: 3px;
+				line-height: 24px;
+				text-align: center;
+				margin: 0 auto;
+			}
+
+			p {
+
+				height: 68px;
+				width: 719px;
+				font-family: "Open Sans";
+				font-size: 18px;
+				line-height: 34px;
+				text-align: center;
+
+			}
+
+
+		}
+
+		.workshop {
+			height: 600px;
+			width: 320px;
+			background-color: #FFFFFF;
+			box-shadow: 0 10px 16px 10px rgba(49,49,49,0.04);
+
+			.ws-sign {
+				height: 60px;
+				width: 340px;
+				background-color: $color-yellow;
+				background: url('../../assets/images/bg_workshop.png') center center no-repeat;
+				margin-top: 10px;
+
+				h2 {
+					color: #19262E;
+				}
+
+			}
+		}
+
+		.training {
+			height: 600px;
+			width: 665px;
+			background-color: #FFFFFF;
+			box-shadow: 0 10px 16px 10px rgba(49,49,49,0.04);
+
+			.blue-sign {
+				height: 60px;
+				width: 648px;
+				border-radius: 1px 1px 0 0;
+				background-color: #16A3F8;
+				position: relative;
+				top: 10px;
+			}
+		}
+
+		.co-ziskas-text {
+
+			height: 102px;
+			font-family: "Open Sans";
+			font-size: 18px;
+			font-weight: bold;
+			line-height: 34px;
+			text-align: center;
+			    margin-top: 63px;
+
+			span {
+				color: $color-yellow;
+			}
+
+		}
+		
+		.co-ziskas-btn {
+			margin: 70px 0;
+		}
+	}
+}
+

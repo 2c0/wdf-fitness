@@ -48,10 +48,34 @@
 	color: $color-yellow;
 	text-transform: uppercase;
 	line-height: 31px;
-	
+
 	&:hover {
 		color: $color-yellow;
 	}
+}
+
+.pripojit-btn-alt3 {
+	height: 50px;
+	width: 230px;
+	border: 2px solid #F0E40A;
+	border-radius: 42px;
+	background-color: #F0E40A;
+	text-transform: uppercase;
+	line-height: 31px;
+	color: $color-dark-grey;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+
+	&:hover {
+		color:  $color-dark-grey;
+	}
+}
+
+
+.rectangle-2-copy {
+
 }
 
 .video-btn {
@@ -119,10 +143,18 @@
 
 }
 
+.circle {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 29px;
+}
 
-// Fonts
-
-
+border-bt-dashed {
+	border-bottom: 1px dashed white;
+}
 
 //fixers
 
@@ -155,5 +187,9 @@
 // floats
 .float-right {
     float: right;
+}
+
+.inline {
+	display: inline-block;
 }
 
