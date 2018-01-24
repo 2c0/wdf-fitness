@@ -5,16 +5,47 @@
 #faq {
 	background-color: $color-dark-green-bg;
 	color: $color-white;
+	padding-bottom: 80px;
+
+	.faq-1 {
+		height: 68px;
+		width: 564px;
+		color: #FFFFFF;
+		font-family: "Open Sans";
+		font-size: 18px;
+		line-height: 34px;
+		text-align: center;
+
+	}
+
+	.accordion-wrap {
+		margin-top: 80px;
+	}
 
 	#accordion {
 		width: 600px;
 		margin: 0 auto;
-		
+
+
 		.panel {
 			background: none;
-			
+			border: none;
+
+			.panel-heading {
+				background: none !important;
+				border-bottom: 1px solid rgba(206, 206, 206, 0.1);
+				color:$color-white;
+				text-decoration: none;
+			}
+
 			.panel-title {
 				text-align: left;
+				color: #FFFFFF;
+				font-family: "Open Sans";
+				font-size: 18px;
+				font-weight: bold;
+				line-height: 29px;
+
 			}
 		}
 	}
