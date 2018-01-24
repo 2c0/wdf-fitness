@@ -1,21 +1,43 @@
 //
 // PROMENY
 // --------------------------------------------------
-.promeny-wrap {
-	
-	width: 50%;
-	height: auto;
-	
+#promeny {
+
 	h1 {
 		color: $color-dark-grey;
 	}
-	
+
 	.promeny-1 {
 		color: #19262E;
 		font-family: "Open Sans";
 		font-size: 18px;
 		line-height: 34px;
 		text-align: center;
+
+	}
+
+	.promeny-2 {
+		color: #19262E;
+		font-family: "Open Sans";
+		font-size: 18px;
+		line-height: 34px;
+		text-align: center;
+		height: 102px;	
+		width: 682px;
+
+	}
+
+	.promeny-3 {
+		height: 34px;
+		color: #19262E;
+		font-family: "Open Sans";
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 34px;
+		text-align: center;
+		text-transform: uppercase;
+		margin-top: 40px;
+
 	}
 }
 
