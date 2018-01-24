@@ -76,71 +76,132 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+						<h4 class="modal-title" id="myModalLabel">Přihláška</h4>
 					</div>
 					<div class="modal-body">
 						<form class="form-horizontal" role="form">
 							<fieldset>
 
 								<!-- Form Name -->
-								<legend>Address Details</legend>
+								<legend>Mansformation program</legend>
 
-								<!-- Text input-->
-								<div class="form-group">
-									<label class="col-sm-2 control-label" for="textinput">Line 1</label>
-									<div class="col-sm-10">
-										<input type="text" placeholder="Address Line 1" class="form-control">
-									</div>
+
+								<p>Po novém roce budeš mít možnost se zapojit do programu, 
+									který ti pomůže shodit přebytečná kila, dostat se do formy 
+									a radikálně snížit míru stresu.</p>
+
+								<div>
+									<p>Co dostaneš?</p>
+									<ol>
+										<li>Tělo z kamene .</li>
+										<li>Více energie a soustředění pro tvůj byznys a rodinu.</li>
+										<li>Systém jak trénovat, i mimo posilovnu s minimem vybavení a investic.</li>
+										<li>Ověřené tipy, jak najet na stravu, po které zhubneš, ale zároveň nepřijdeš o pivko s kamarády.</li>
+									</ol>
+
 								</div>
+								<div>
+									<p>Jak to probíhá?</p>
+									<ol>
+										<li>Trénink 2x týdně v Aréně Pavly Kladivové v Nuslích. St a Pá v 9:00. (v ceně je i vstup do posilovny) + úkoly na doma.</li>
+										<li>Vstupní dotazník a výživová konzultace (2 hodiny těch nejlepších triků, které mám v rukávě + přesné nastavení porcí pro tebe). Taky se seznámíš s ostatními účastníky programu.</li>
+										<li>Výživová online podpora. (FB skupina s každodenními tipy a supportem od ostatních chlapů + individuální řešení trablů s jídlem- jeden na jednoho)</li>
+										<li>Monitoring pokroků - hmotnost, procento tuku, spánek, výkonnost, pohyb. 
+											To všechno, abys na konci viděl reálné a měřitelné výsledky!</li>
+									</ol>
 
-								<!-- Text input-->
-								<div class="form-group">
-									<label class="col-sm-2 control-label" for="textinput">Line 2</label>
-									<div class="col-sm-10">
-										<input type="text" placeholder="Address Line 2" class="form-control">
-									</div>
 								</div>
-
-								<!-- Text input-->
-								<div class="form-group">
-									<label class="col-sm-2 control-label" for="textinput">City</label>
-									<div class="col-sm-10">
-										<input type="text" placeholder="City" class="form-control">
-									</div>
-								</div>
-
-								<!-- Text input-->
-								<div class="form-group">
-									<label class="col-sm-2 control-label" for="textinput">State</label>
-									<div class="col-sm-4">
-										<input type="text" placeholder="State" class="form-control">
-									</div>
-
-									<label class="col-sm-2 control-label" for="textinput">Postcode</label>
-									<div class="col-sm-4">
-										<input type="text" placeholder="Post Code" class="form-control">
-									</div>
-								</div>
-
 
 
 								<!-- Text input-->
 								<div class="form-group">
-									<label class="col-sm-2 control-label" for="textinput">Country</label>
-									<div class="col-sm-10">
-										<input type="text" placeholder="Country" class="form-control">
+									<label class="col-xs-12 control-label" for="textinput">Jméno:<span class="req">*</span>:</label>
+									<div class="col-xs-12 col-sm-6">
+										<input type="text" placeholder="Jméno" class="form-control" required>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<input type="text" placeholder="Příjmení" class="form-control" required>
 									</div>
 								</div>
 
+								<!-- Text input-->
 								<div class="form-group">
-									<div class="col-sm-offset-2 col-sm-10">
-										<div class="pull-right">
-											<button type="submit" class="btn btn-default">Cancel</button>
-											<button type="submit" class="btn btn-primary">Save</button>
-										</div>
+									<label class="col-xs-12 col-sm-2 control-label" for="textinput">Email<span class="req">*</span>:</label>
+									<div class="col-xs-12 col-sm-4">
+										<input type="text" placeholder="State" class="form-control" required>
+									</div>
+
+									<label class="col-xs-12 col-sm-2 control-label" for="textinput">Telefon<span class="req">*</span>:</label>
+									<div class="col-xs-12 col-sm-4">
+										<input type="text" placeholder="Telefon" class="form-control" required>
 									</div>
 								</div>
-
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-xs-12 control-label" for="textinput">
+										Kolik už jsi investoval peněz k dosažení tvého cíle?
+										(Úbytek tuku, zpevnění postavy, zlepšení zdraví...).<span class="req">*</span>
+									</label>
+									<div class="col-xs-12">
+										<input type="text" class="form-control" required>
+									</div>
+								</div>
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-xs-12 control-label" for="textinput">
+										Vyplatila se ti investice? 
+										Jaký z toho máš pocit?<span class="req">*</span>
+									</label>
+									<div class="col-xs-12">
+										<input type="text"  class="form-control" required>
+									</div>
+								</div>
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-xs-12 control-label" for="textinput">
+										Když se podíváš do zrcadla. Jaký z toho máš pocit? 
+										Od 1-10? (1 tohle nechceš vidět - 10 vypadám jak Marvelovská figurka)<span class="req">*</span>
+									</label>
+									<div class="col-xs-12">
+										<input type="text"  class="form-control" required>
+									</div>
+								</div>
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-xs-12 control-label" for="textinput">
+										Co je pro tebe tou největší překážkou, která ti brání dostat se znovu do formy?<span class="req">*</span>
+									</label>
+									<div class="col-xs-12">
+										<input type="text" class="form-control" required>
+									</div>
+								</div>
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-xs-12 control-label" for="textinput">
+										Proč ses rozhodl vybrat právě mě?<span class="req">*</span>
+									</label>
+									<div class="col-xs-12">
+										<input type="text"  class="form-control" required>
+									</div>
+								</div>
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-xs-12 control-label" for="textinput">
+										PROČ bych měl vybrat právě tebe?<span class="req">*</span>
+									</label>
+									<div class="col-xs-12">
+										<input type="text"  class="form-control" required>
+									</div>
+								</div>
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-xs-12 control-label" for="checkbox">
+										PROČ bych měl vybrat právě tebe?<span class="req">*</span>
+									</label>
+									<div class="col-xs-12">
+										<input type="checkbox" placeholder="Ano" class="form-control" required>
+									</div>
+								</div>
 							</fieldset>
 						</form>
 					</div>
