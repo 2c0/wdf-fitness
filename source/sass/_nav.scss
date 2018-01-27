@@ -2,63 +2,57 @@
 
 @import "variables";
 
-.navbar {
-    
-    z-index: $zindex-modal;
-    
-    .container {
-        padding: 0;
-    }
+.navbar-fixed-right {
+	position: fixed;
+	right: 0;
+	left: auto;
+	top: 130px;
+	height: auto;	
+	width: 216px;
+	background: none;
+	font-size: 15px;
+	border: none;
 
-    .navbar-brand {
-        line-height: 34px !important;
-        margin-left: 15px;
+	@media  screen and (max-width: $breakpoint-mobile) {
+		position: fixed;
+		top: 0;
+		height: auto;
+		width: 100%;
+		backround: white;
+	}
 
-        .logo {
-            font-size: 32px;
-            color: red;
-            font-weight: bold;
+	li {
+		width: 100%;
+		border-bottom: 1px dashed;
 
+		&:hover {
+			color: $color-yellow !important;
+		}
 
-            @media screen and (min-width: $breakpoint-tablet) {
-                font-size: 40px;
-            } 
+		&:active {
+			color: $color-yellow !important;
+		}
 
-            @media screen and (min-width: $breakpoint-desktop) {
-                font-size: 55px;
-            } 
-        }
+		&:focus {
+			color: $color-yellow !important;
+		}
 
-    }
+		a {
+			font-size: 15px;
+			color: $color-white !important;
 
-    .navbar-nav {
-        li {
-            a {
-                padding-top: 27px;
-            }
-        }
-    }
+			&:hover {
+				color: $color-yellow !important;
+			}
 
-    .navbar-toggle {
-        background: none;
+			&:active {
+				color: $color-yellow !important;
+			}
 
-    }
-
-    #phodat-main-nav-collapse {
-        font-size: 16px !important;
-        
-        .menu-item {
-            margin-left: 15px;
-        }
-    }
-
-
-    .navbar-default .navbar-toggle:hover,  {
-        /* background-color: #ddd; */
-    }
-
-    .navbar-default .navbar-toggle:focus {
-        background: none;
-    }
+			&:focus {
+				color: $color-yellow !important;
+			}
+		}
+	}
 
 }
