@@ -14,7 +14,7 @@ jQuery(function ($) {
 	});
 
 
-	//Main Navigation functionality
+	// ------------ Main Navigation functionality -------------//
 	$('a[href^="#"]:not([data-toggle])').on('click', function (e) {
 
 // Make sure this.hash has a value before overriding default behavior
@@ -32,5 +32,11 @@ jQuery(function ($) {
 			});
 		}
 	});
+
+
+	$(".navbar-nav li a").click(function (event) {
+        if (!$(this).parent().hasClass('dropdown'))
+            $(".navbar-collapse").collapse('hide');
+    });
 
 });
