@@ -105,7 +105,7 @@ gulp.task('watch', function () {
 	browserSync.init({
 		open: 'external',
 		//browser: "firefoxdeveloperedition",
-		proxy: 'wdffitness.dev'
+		proxy: 'wdffitness.local'
 	});
 	gulp.watch(sassSrc, ['sass-dev']);
 	gulp.watch(jsSrc, ['js-dev']);
